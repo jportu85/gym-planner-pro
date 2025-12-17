@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gym Planner Pro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark">
+
+<header>
+  <h1>Gym Planner Pro</h1>
+  <button onclick="toggleTheme()">🌙 / ☀️</button>
+</header>
+
+<section class="selectors">
+  <select id="goal">
+    <option value="">Objetivo</option>
+    <option value="grasa">Pérdida de grasa</option>
+    <option value="hipertrofia">Hipertrofia</option>
+    <option value="fuerza">Fuerza</option>
+    <option value="salud">Salud</option>
+  </select>
+
+  <select id="level">
+    <option value="">Nivel</option>
+    <option value="principiante">Principiante</option>
+    <option value="intermedio">Intermedio</option>
+    <option value="avanzado">Avanzado</option>
+  </select>
+
+  <select id="days">
+    <option value="">Días/semana</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+  </select>
+
+  <button onclick="loadRoutine()">Generar rutina</button>
+</section>
+
+<section id="routine"></section>
+
+<section id="planner">
+  <h2>📅 Planificador semanal</h2>
+  <div id="week"></div>
+</section>
+
+<script src="routines.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
