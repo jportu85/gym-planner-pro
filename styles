@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body.dark {
+  background: #111;
+  color: #fff;
+}
+
+body.light {
+  background: #f5f5f5;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #00e676;
+  color: #000;
+}
+
+select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.card {
+  background: #1e1e1e;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+body.light .card {
+  background: #fff;
+}
+
+.exercise {
+  display: flex;
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
