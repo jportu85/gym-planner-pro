@@ -1,0 +1,51 @@
+const routines = [
+  {
+    goal: "hipertrofia",
+    level: "intermedio",
+    days: "4",
+    title: "Torso / Pierna – Hipertrofia",
+    plan: [
+      {
+        day: "Día 1 – Torso",
+        exercises: [
+          "Press banca 4x8",
+          "Remo barra 4x8",
+          "Press militar 3x10",
+          "Jalón pecho 3x10",
+          "Curl bíceps 3x10",
+          "Tríceps polea 3x12"
+        ]
+      },
+      {
+        day: "Día 2 – Pierna",
+        exercises: [
+          "Sentadilla 4x8",
+          "Prensa 4x12",
+          "Curl femoral 3x12",
+          "Extensión cuádriceps 3x12",
+          "Gemelos 4x15"
+        ]
+      },
+      {
+        day: "Día 3 – Torso",
+        exercises: [
+          "Press inclinado 4x10",
+          "Remo máquina 4x10",
+          "Elevaciones laterales 4x15",
+          "Face pull 3x15",
+          "Curl polea 3x12"
+        ]
+      },
+      {
+        day: "Día 4 – Pierna",
+        exercises: [
+          "Peso muerto rumano 4x10",
+          "Zancadas 3x12",
+          "Hip thrust 4x10",
+          "Abducción cadera 3x15",
+          "Gemelos 4x15"
+        ]
+      }
+    ]
+  }
+];
